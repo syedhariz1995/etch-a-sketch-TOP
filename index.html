@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <title class="title">Etch-A-Sketch</title>
+    <title class="title">Sketch Pad</title>
     <div class="content">
         <div class="board"></div>
         <div class="buttons">
@@ -15,9 +17,20 @@
             <button>White</button>
             <button>Random</button>
             <button>Reset</button>
-            
+        </div>
+        <div class="gridOptions">
+            <label for="dropdown">Choose grid option:</label>
+            <select id="dropdown" name="dropdown">
+                <option value="option1">1x1</option>
+                <option value="option2">2x2</option>
+                <option value="option3">4x4</option>
+                <option value="option4">8x8</option>
+                <option value="option5" selected>16x16</option>
+                <option value="option6">32x32</option>
+            </select>
         </div>
     </div>
 </body>
 <script src="index.js"></script>
+
 </html>

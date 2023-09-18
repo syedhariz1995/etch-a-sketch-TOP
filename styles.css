@@ -25,5 +25,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 16px;
+}
+
+.gridOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gridOptions{
+    margin-top: 20px;
+}
+
+#dropdown{
+    margin-top: 8px;
 }
